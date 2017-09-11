@@ -8,7 +8,7 @@ body {
 	font-family: 'Noto Sans', sans-serif;
 	color: #333333;
 	background-image: url('../img/texture.png');
-	background-color: #ffffed;
+	background-color: #ffffff;
 }
 
 .main {
@@ -27,30 +27,50 @@ body {
 .main-title {
 	font-family: 'Noto Serif', serif;
 	font-weight: 700;
-	font-size: 48px;
+	font-size: 70px;
 }
 
 .main-title-desc {
-	font-size: 16px;
+	font-size: 20px;
 }
 
 .main-form {
 	margin-top: 70px;
+	display: inline-block;
 }
 
 .search-query-class {
-	font-size: 18px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	font-size: 16px;
+	padding-top: 6px;
+	padding-bottom: 6px;
 }
 
-.search-query-submit {
-	background-color: #2274A5;
-    border: none;
-    color: white;
-    padding: 7px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
+.button {
+	/*background-color: #63D471;*/
+  border: none;
+  color: #333333;
+  /*padding: 10px 20px;*/
+  height: 36px;
+  width: 120px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.button-search {
+	background-color: #7ADD92;
+}
+.button-search:hover {
+	background-color: #6FC985;
+}
+
+.button-random {
+	background-color: #4C99FF;
+	color: white;
+}
+.button-random:hover {
+	background-color: #468CE8;
 }
