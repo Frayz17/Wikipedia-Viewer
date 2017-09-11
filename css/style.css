@@ -1,0 +1,56 @@
+/*<style>
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif:700');
+</style>
+/*font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Serif', serif;*/
+
+body {
+	font-family: 'Noto Sans', sans-serif;
+	color: #333333;
+	background-image: url('../img/texture.png');
+	background-color: #ffffed;
+}
+
+.main {
+	max-width: 700px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.main-header {
+	border-radius: 20px;
+	padding-bottom: 15px;
+}
+
+.main-title {
+	font-family: 'Noto Serif', serif;
+	font-weight: 700;
+	font-size: 48px;
+}
+
+.main-title-desc {
+	font-size: 16px;
+}
+
+.main-form {
+	margin-top: 70px;
+}
+
+.search-query-class {
+	font-size: 18px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.search-query-submit {
+	background-color: #2274A5;
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
