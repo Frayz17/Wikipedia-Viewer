@@ -46,10 +46,8 @@ body {
 }
 
 .button {
-	/*background-color: #63D471;*/
   border: none;
   color: #333333;
-  /*padding: 10px 20px;*/
   height: 36px;
   width: 120px;
   text-align: center;
@@ -58,11 +56,13 @@ body {
   font-size: 16px;
   cursor: pointer;
   text-transform: uppercase;
+  outline: none
 }
 
 .button-search {
 	background-color: #7ADD92;
 }
+
 .button-search:hover {
 	background-color: #6FC985;
 }
@@ -87,4 +87,13 @@ body {
 	background-color: white;
 	padding: 10px;
 	margin-top: 10px;
+}
+
+.articles-reference {
+	text-decoration: inherit;
+    color: inherit;
+}
+.articles-reference:visited {
+	text-decoration: inherit;
+    color: inherit;
 }
